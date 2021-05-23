@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: b3ebd013001786d4f99bbfb4ed25f358
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Armature_ATK1_0
+    21300002: Armature_ATK1_1
+    21300004: Armature_ATK1_2
+    21300006: Armature_ATK1_3
+    21300008: Armature_ATK1_4
+    21300010: Armature_ATK1_5
+    21300012: Armature_ATK1_6
+    21300014: Armature_ATK1_7
+    21300016: Armature_ATK1_8
+    21300018: Armature_ATK1_9
+    21300020: Armature_ATK1_10
+    21300022: Armature_ATK1_11
+    21300024: Armature_ATK1_12
+    21300026: Armature_ATK1_13
+    21300028: Armature_ATK1_14
+    21300030: Armature_ATK1_15
+    21300032: Armature_ATK1_16
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_ATK1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1852
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd33a489ddd35b243b265a294f80d81d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_1
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1852
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f001a7e413c0b864ca16695fa002f7be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_2
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1852
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c69c32780ed9b429c13c20cb8534b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_3
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 1852
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc4b08c0d9d1cb4da8149025c0e21d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_4
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 1852
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161bfdf19ffa5f8409aea7ff1fc69ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_5
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 1852
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf10ea65291f5bf4aad4ca3148b9d9f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 926
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc49fce8d1fa6d438cd007a4e414216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_7
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 926
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7153be58404684083befad5a55c70e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_8
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 926
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2586040b00ff2643a84a65db9050dba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_9
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 926
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5551e200617c4c9100694385b6223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_10
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 926
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31e0cb35f6ddd1489c08081cf437cb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_11
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 926
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935a2d8d45044864eb85027db98447c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8437574bfe9d74395fffa4ce35907f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_13
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eced51b75614141a98202704d888a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_14
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 0
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ca5cd1d679f334c85a709fbe292421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_15
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 0
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b868c0c80ec7f4085f771eeb9fd6aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_ATK1_16
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 579
+        height: 926
+      alignment: 9
+      pivot: {x: 0.75, y: 0.025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41585df4a791a2140a8ce217e1c1fbf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0f30c1455e5699f40a792e4b28e762c1
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

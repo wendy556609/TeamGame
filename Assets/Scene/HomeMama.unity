@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1575,6 +1575,16 @@ Prefab:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224274904525156588, guid: adcf0461d6695ab44a2bf28fc935c82e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -480.74994
+      objectReference: {fileID: 0}
+    - target: {fileID: 114402522129726678, guid: adcf0461d6695ab44a2bf28fc935c82e,
+        type: 2}
+      propertyPath: m_Size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
   m_IsPrefabAsset: 0
@@ -1755,7 +1765,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &365811982 stripped
@@ -1852,7 +1862,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &393737351
@@ -3592,7 +3602,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1671759738 stripped
@@ -3750,13 +3760,13 @@ Prefab:
     - target: {fileID: 61893795632695242, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
         type: 2}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 20.189999
+      value: 20.19
       objectReference: {fileID: 0}
     - target: {fileID: 212218012368797954, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: dc15d2c8cc9b30e4eb1ab8b59a92d01d,
+      objectReference: {fileID: 21300000, guid: b614e5599eb91864fb46435fea3ed7d4,
         type: 3}
     - target: {fileID: 212218012368797954, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
         type: 2}
@@ -3766,6 +3776,15 @@ Prefab:
     - target: {fileID: 61893795632695242, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
         type: 2}
       propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 61893795632695242, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472618838718074, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

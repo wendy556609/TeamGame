@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4840207745534708}
   - component: {fileID: 212078207372959766}
-  - component: {fileID: 95950573778097422}
   m_Layer: 0
   m_Name: Water
   m_TagString: Water
@@ -90,8 +89,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.45, y: 0.45}
-    oldSize: {x: 16.95, y: 11.36}
-    newSize: {x: 16.95, y: 11.36}
+    oldSize: {x: 16.949999, y: 11.362499}
+    newSize: {x: 16.949999, y: 11.362499}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -117,24 +116,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!95 &95950573778097422
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1187099070251366}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ffe12e75f61fb7946832d827ca942a99, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114825752382792990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,7 +131,12 @@ MonoBehaviour:
   setTime: 1
   isHurt: 0
   water: {fileID: 1187099070251366}
+  healthTest: {fileID: 0}
+  enemyHealth: {fileID: 0}
+  middleHealth: {fileID: 0}
+  littleEnemy: {fileID: 0}
   welfuiobject: {fileID: 0}
+  health: 
 --- !u!212 &212078207372959766
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -191,7 +177,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 16.95, y: 11.36}
+  m_Size: {x: 16.96, y: 11.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -232,12 +218,12 @@ SpriteRenderer:
   m_SortingLayerID: -1376077347
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 73dfac0527e4f644ea44c79dbf9f80d1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6dc7ab7bd9e22740aed38acedf92a92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 16.95, y: 11.36}
+  m_Size: {x: 16.949999, y: 11.362499}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

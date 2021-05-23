@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3075,11 +3075,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4753411700390504, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4500279924097690, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4995758800689390, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
       propertyPath: m_RootOrder
@@ -3087,11 +3087,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4416813884880326, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4651913082444152, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1626385526748466, guid: adcf0461d6695ab44a2bf28fc935c82e, type: 2}
       propertyPath: m_IsActive
@@ -3979,7 +3979,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &337608993
@@ -4668,7 +4668,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &394304164
@@ -7679,7 +7679,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4927349666022064, guid: 9e0c580a268e61e41b1acb34e8cb0854, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 212661447016834090, guid: 9e0c580a268e61e41b1acb34e8cb0854,
         type: 2}
@@ -7704,6 +7704,17 @@ Prefab:
     - target: {fileID: 4927349666022064, guid: 9e0c580a268e61e41b1acb34e8cb0854, type: 2}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212661447016834090, guid: 9e0c580a268e61e41b1acb34e8cb0854,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300064, guid: b4e027ab4de53cf4fbf4ea6b38acc238,
+        type: 3}
+    - target: {fileID: 212661447016834090, guid: 9e0c580a268e61e41b1acb34e8cb0854,
+        type: 2}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e0c580a268e61e41b1acb34e8cb0854, type: 2}
@@ -10026,7 +10037,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &848674902
@@ -13832,7 +13843,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096942771087946, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 38.8
+      value: 40.14
       objectReference: {fileID: 0}
     - target: {fileID: 4096942771087946, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_LocalPosition.z
@@ -13856,7 +13867,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096942771087946, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
@@ -18574,7 +18585,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076460168041902, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 83.3
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 4076460168041902, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -18598,7 +18609,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076460168041902, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
@@ -19044,7 +19055,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076460168041902, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 173.7
+      value: 176.16
       objectReference: {fileID: 0}
     - target: {fileID: 4076460168041902, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -19068,7 +19079,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076460168041902, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1336318687316422, guid: a2ecaf8f7e0b1a54c8fc423fd7803b1d, type: 2}
       propertyPath: m_Name
@@ -19389,7 +19400,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1723148280
@@ -22060,36 +22071,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 1472618838718074, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682104191197762, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
-      propertyPath: m_LocalScale.x
-      value: -0.68095
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682104191197762, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.615
-      objectReference: {fileID: 0}
-    - target: {fileID: 4682104191197762, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.62645
-      objectReference: {fileID: 0}
-    - target: {fileID: 1555111851570492, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114331975343718892, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
-        type: 2}
-      propertyPath: welfuiobject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114433391727325952, guid: c3f88811b4e70ac4b8315b13d3a0e18b,
-        type: 2}
-      propertyPath: jumpSpeed
-      value: 2600
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3f88811b4e70ac4b8315b13d3a0e18b, type: 2}
   m_IsPrefabAsset: 0
@@ -22210,7 +22191,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &1823831926
@@ -22226,7 +22207,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096942771087946, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 124.8
+      value: 125.27
       objectReference: {fileID: 0}
     - target: {fileID: 4096942771087946, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_LocalPosition.z
@@ -22250,7 +22231,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4096942771087946, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1595073390369302, guid: 8bc75c32976799b4a9cb2079ee73ef43, type: 2}
       propertyPath: m_Name

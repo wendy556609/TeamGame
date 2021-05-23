@@ -144,7 +144,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.005}
-    oldSize: {x: 6.17, y: 20.19}
+    oldSize: {x: 6.177778, y: 20.2}
     newSize: {x: 8.95, y: 16.53}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -212,6 +212,7 @@ MonoBehaviour:
   enemyHealth: {fileID: 0}
   middleHealth: {fileID: 0}
   littleEnemy: {fileID: 0}
+  box: {fileID: 0}
   health: 
 --- !u!114 &114159438330214638
 MonoBehaviour:
@@ -280,6 +281,7 @@ MonoBehaviour:
   enemyHealth: {fileID: 0}
   middleHealth: {fileID: 0}
   littleEnemy: {fileID: 0}
+  box: {fileID: 0}
   health: 
   player: {fileID: 0}
 --- !u!212 &212218012368797954
@@ -317,7 +319,7 @@ SpriteRenderer:
   m_SortingLayerID: -939724121
   m_SortingLayer: 7
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a6b42e1acd086b84a97264659de16d1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 91d8e88efb9fb6141b0688f746ede241, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

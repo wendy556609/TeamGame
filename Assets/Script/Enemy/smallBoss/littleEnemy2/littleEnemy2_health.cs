@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class littleEnemy2_health : MonoBehaviour {
+public class littleEnemy2_health : MonoBehaviour
+{
 
     //遊戲開始時小怪的初始血量
     public int startingHealth = 12;
@@ -32,23 +33,24 @@ public class littleEnemy2_health : MonoBehaviour {
 
     public void TakeDamage(int amount = 1)
     {
-        currentHealth -= amount;
-        if (currentHealth <= 0)
+        if (!isDead)
         {
-            Death();
+            currentHealth -= amount;
+            anim.SetBool("littleEnemy2_behurt", true);
+            Invoke("resetanim", 0.1f);
+            Debug.Log(currentHealth);
+
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                Death();
+            }
         }
-        anim.SetBool("littleEnemy2_behurt", true);
-        Invoke("resetanim", 0.1f);
-        Debug.Log(currentHealth);
-
-
-
     }
 
     //死亡
     void Death()
     {
-        Debug.Log("Dead");
         isDead = true;
         /*capsuleCollider.isTrigger = true;*/
         /*anim.SetTrigger("Dead");*/

@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour {
+public class EnemyHealth : MonoBehaviour
+{
     //遊戲開始時小怪的初始血量
     public int startingHealth = 12;
     //遊戲過程中記錄小怪血量
     public int currentHealth;
     //怪物死亡數目
     public int enemy_dead = 0;
-   
+
     Animator anim;
     AudioSource enemyAudio;
     ParticleSystem hitParticles;
@@ -17,43 +18,44 @@ public class EnemyHealth : MonoBehaviour {
     Enemymovement enemymovement;
     public bool isDead;
     bool isSinking;
-    bool bullet_tag=false;
+    bool bullet_tag = false;
     float timer = 0f;
-    
+
     // Use this for initialization
 
     //傷害
     void resetanim()
     {
-       
+
         anim.SetBool("littleEnemy_behurt", false);
-        CancelInvoke ("resetanim");
+        CancelInvoke("resetanim");
     }
 
 
     public void TakeDamage(int amount = 1)
     {
-        
-        currentHealth -= amount;
-        Debug.Log("hurt" + currentHealth);
-        if (currentHealth <= 0)
+        if (!isDead)
         {
-            Death();
-        }
-        
-        anim.SetBool("littleEnemy_behurt", true);
-        Invoke("resetanim", 0.1f);
-       
+            currentHealth -= amount;
 
+            anim.SetBool("littleEnemy_behurt", true);
+            Invoke("resetanim", 0.1f);
+
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                Death();
+            }
+        }
     }
 
     //死亡
     void Death()
     {
-       
+
         isDead = true;
         enemy_dead++;
-        
+
     }
 
 
@@ -65,7 +67,7 @@ public class EnemyHealth : MonoBehaviour {
 
         if (border.gameObject.CompareTag("bullet"))
         {
-          
+
             TakeDamage();
 
         }
@@ -74,13 +76,14 @@ public class EnemyHealth : MonoBehaviour {
 
 
 
-    void Start () {
+    void Start()
+    {
 
         anim = GetComponent<Animator>();
-        enemymovement =GetComponent<Enemymovement>();
+        enemymovement = GetComponent<Enemymovement>();
         currentHealth = startingHealth;
     }
 
-  
+
 
 }

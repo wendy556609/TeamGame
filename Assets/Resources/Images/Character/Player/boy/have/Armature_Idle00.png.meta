@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: 91d8e88efb9fb6141b0688f746ede241
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Armature_Idle00_0
+    21300002: Armature_Idle00_1
+    21300004: Armature_Idle00_2
+    21300006: Armature_Idle00_3
+    21300008: Armature_Idle00_4
+    21300010: Armature_Idle00_5
+    21300012: Armature_Idle00_6
+    21300014: Armature_Idle00_7
+    21300016: Armature_Idle00_8
+    21300018: Armature_Idle00_9
+    21300020: Armature_Idle00_10
+    21300022: Armature_Idle00_11
+    21300024: Armature_Idle00_12
+    21300026: Armature_Idle00_13
+    21300028: Armature_Idle00_14
+    21300030: Armature_Idle00_15
+    21300032: Armature_Idle00_16
+    21300034: Armature_Idle00_17
+    21300036: Armature_Idle00_18
+    21300038: Armature_Idle00_19
+    21300040: Armature_Idle00_20
+    21300042: Armature_Idle00_21
+    21300044: Armature_Idle00_22
+    21300046: Armature_Idle00_23
+    21300048: Armature_Idle00_24
+    21300050: Armature_Idle00_25
+    21300052: Armature_Idle00_26
+    21300054: Armature_Idle00_27
+    21300056: Armature_Idle00_28
+    21300058: Armature_Idle00_29
+    21300060: Armature_Idle00_30
+    21300062: Armature_Idle00_31
+    21300064: Armature_Idle00_32
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_Idle00_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2223414f8bc2df0459003c5aea49ccbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4542c08e0e40b9409aa5da909e107b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011f78d277ae105459ca35466e8182e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33601b03e4d24094b83431ffddc4a2eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_4
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e5e030e5a96be43a3d6925911abde8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_5
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c714b085a47cb4784a314927a8839a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_6
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5265707ec40ff46a319864bf5d8f94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_7
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aee3fcf04dd09449d7968a95781e5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_8
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce2e948a3544974bb690e0b3c5257cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_9
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38de370244a06f4eaa6928f5c16b458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_10
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 1818
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4519349c35a3bf14f9c7e49feb2a0404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952949c4008a96d47869d500db8f3262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7beca0b9e0017418ab2db0697e8039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_13
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f3a70b26b802846a7f0c3d7cfbb80f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_14
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607c4934789eded4b9d375e7ed8ada24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_15
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e6e154015ef4c41884d30f727737c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_16
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5588417f130610844abb6c284d7a7f0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_17
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f492b7364d72949a5d1c030526ed57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_18
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd7cad07189294eae096351fdb5cce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_19
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a5226147a605447b42a0fb6601bade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_20
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0952d383f429a4589b0297e63e1582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_21
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 909
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9799b64b87d9a478d6d5b152015d05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fb252acbd1c6c41b7ef14300938cd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_23
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c580b5cbb9c62a41af55d41ced09128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_24
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb74d5665ea7f0442810de0ec08b72ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_25
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857eb0a63e1f3b6439f5b70daf8f1049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_26
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb292a0c6af02d4493aebc933b7461c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_27
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5d146455ed5db4d991b673e181b4bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_28
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ae5ae11e09a6345b8d62514b84aba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_29
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c99b8e934596942bfe7dd1aa2c8326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_30
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8677d3d7bdcd5314db5bc29dbf6769b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_31
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938f7eb8e1411564e8149939cda22335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Idle00_32
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 0
+        width: 278
+        height: 909
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fba76c977437f4ba932d4b20d520d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c2c6a42b7c1f90f42a68e9c910a7a0c2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

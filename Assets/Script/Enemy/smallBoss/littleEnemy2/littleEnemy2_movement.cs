@@ -202,14 +202,14 @@ public class littleEnemy2_movement : MonoBehaviour {
                 Vector2 transformValue = new Vector2(0, 0);
                 playerRigidbody.velocity = transformValue;
                 
-                if (((timer_enlarge % 5) > 0) && ((timer_enlarge % 5) < 2) && detectCharac == true && this.gameObject.transform.localScale.x<0.9)
+                if (((timer_enlarge % 5) > 0) && ((timer_enlarge % 5) < 2) && detectCharac == true && this.gameObject.transform.localScale.x<1.2)
                 {
                     this.gameObject.transform.localScale += new Vector3(0.01f, 0.01f, 0f);
 
 
                 }
 
-                else if (((timer_enlarge % 5) > 2) && ((timer_enlarge % 5) < 4) && detectCharac == true && this.gameObject.transform.localScale.x > 0.69)
+                else if (((timer_enlarge % 5) > 2) && ((timer_enlarge % 5) < 4) && detectCharac == true && this.gameObject.transform.localScale.x > 1.0)
                 {
                     this.gameObject.transform.localScale += new Vector3(-0.01f, -0.01f, 0f);
 
@@ -224,12 +224,12 @@ public class littleEnemy2_movement : MonoBehaviour {
             else if ((Vector2.Distance(transform.position, main.position) > attackDis))
             {
                 
-                if (this.gameObject.transform.localScale.x > 0.69f)
+                if (this.gameObject.transform.localScale.x > 1.0f)
                 {
                     this.gameObject.transform.localScale += new Vector3(-0.01f, -0.01f, 0f);
 
                 }
-                if (this.gameObject.transform.localScale.x < 0.69f)
+                if (this.gameObject.transform.localScale.x < 1.0f)
                 {
                     this.gameObject.transform.localScale += new Vector3(0.01f, 0.01f, 0f);
 

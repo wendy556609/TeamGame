@@ -19,7 +19,7 @@ using UnityEngine;
     PlayerHealth playerHealth;
     public Enemy_count countAllEnemy1;
     bool detectCharac;
-    float scale = 0.7f;
+    float scale = 1.0f;
     bool ishurt=false;
     private void Start()
     {
