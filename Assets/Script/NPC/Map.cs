@@ -24,7 +24,6 @@ public class Map : MonoBehaviour {
         vr1 = talkimage.transform.position + new Vector3(-fhidespeed, 0f, 0f);
         talkimage.transform.position = vr1; //隱藏talkimage
         anim.speed = 0.5f;
-        Debug.Log(anim.speed);
     }
     // Update is called once per frame
     void Update()

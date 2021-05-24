@@ -38,8 +38,6 @@ public class middleEnemy_Attack_hit : MonoBehaviour {
     public void Hurt()
     {
         if (Vector2.Distance(transform.position, main.position)< attackrange) {
-
-            Debug.Log("hurt");
             playerHealth.TakeDamage(1);
 
         }

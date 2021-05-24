@@ -140,7 +140,6 @@ public class middleEnemy_movement : MonoBehaviour
             idle_speed = idle_speed * -1;
             i = 0;
         }
-        /*Debug.Log(i);*/
 
         /*
         Vector2 transformValue = new Vector2(idle_speed, 0);
@@ -180,7 +179,6 @@ public class middleEnemy_movement : MonoBehaviour
 
         rightBullet = GameObject.FindGameObjectWithTag("rightbullet").GetComponent<rightBulletController>();
         leftBullet = GameObject.FindGameObjectWithTag("leftbullet").GetComponent<leftBulletController>();
-        Debug.Log("mmove");
     }
 
 
@@ -297,8 +295,6 @@ public class middleEnemy_movement : MonoBehaviour
 
     void Update()
     {
-
-        Debug.Log(PlayerHealth.currentHealth);
         detectCharacFunc();
         if (enemyHealth.isDead)
         {

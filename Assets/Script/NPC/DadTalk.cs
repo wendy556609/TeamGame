@@ -44,12 +44,10 @@ public class DadTalk : MonoBehaviour
             if (Input.GetKeyDown("z") && isfungus == false && isclickZ == false)
             {
                 isclickZ = true;
-                Debug.Log("GetKeyDown z");
             }
             if (isclickZ == false && isfungus == false)
             {
                 talkimage.transform.position = vr0; //顯示talkimage
-                Debug.Log("cc");
             }
             else
             {
@@ -60,7 +58,6 @@ public class DadTalk : MonoBehaviour
                     isfungus = true;
                     PlayerMovement.isMenu = true;//主角不行動
                 }
-                Debug.Log("dd");
             }
         }
     }
@@ -70,7 +67,6 @@ public class DadTalk : MonoBehaviour
         {
             isclickZ = false;
             talkimage.transform.position = vr1; //隱藏talkimage
-            Debug.Log("aa");
         }
     }
 }

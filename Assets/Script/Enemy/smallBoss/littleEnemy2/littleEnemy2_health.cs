@@ -25,7 +25,6 @@ public class littleEnemy2_health : MonoBehaviour
     //傷害
     void resetanim()
     {
-        Debug.Log("In reset");
         anim.SetBool("littleEnemy2_behurt", false);
         CancelInvoke("resetanim");
     }
@@ -38,7 +37,6 @@ public class littleEnemy2_health : MonoBehaviour
             currentHealth -= amount;
             anim.SetBool("littleEnemy2_behurt", true);
             Invoke("resetanim", 0.1f);
-            Debug.Log(currentHealth);
 
             if (currentHealth <= 0)
             {

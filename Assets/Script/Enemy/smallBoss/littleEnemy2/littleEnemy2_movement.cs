@@ -132,7 +132,6 @@ public class littleEnemy2_movement : MonoBehaviour {
             playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
 
             timer += Time.deltaTime;
-            Debug.Log(timer);
             if (timer >= 1.5f&& triggercount==1)
             {
                 timer = 0;

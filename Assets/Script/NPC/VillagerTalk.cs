@@ -37,7 +37,6 @@ public class VillagerTalk : MonoBehaviour {
                 talkimage.transform.position = vr0;
             }
             flowchart.SetBooleanVariable("isend" + gameObject.name, false);
-            Debug.Log("a");
         }
         if (flowchart.GetBooleanVariable("isplayer")){
             PlayerMovement.isMenu = false;
@@ -60,7 +59,6 @@ public class VillagerTalk : MonoBehaviour {
                 if (gameObject.name == "Odeliaspecial")
                     hastalk = true;
                 isclickZ = false;
-                Debug.Log("S");
             }
         }
         else if (isclickZ == false && isfungus == false&& flowchart.GetBooleanVariable("isplayer") == true)  //進入未動作
@@ -90,15 +88,12 @@ public class VillagerTalk : MonoBehaviour {
             {
                 talkimage.transform.position = vr0;
                 isfungus = false;
-                Debug.Log("D");
             }
-            Debug.Log("E");
         }
     }
     void OnTriggerExit2D(Collider2D collision)
     {
         isclickZ = false;
         talkimage.transform.position = vr1; //隱藏talkimage
-        Debug.Log("F");
     }
 }

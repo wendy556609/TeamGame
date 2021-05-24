@@ -23,7 +23,6 @@ public class BossTalk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("bosscantalk"+bosscantalk);
         if (flowchart.GetBooleanVariable("isplayer") == true)
             PlayerMovement.isMenu = false;//主角不行動
         else

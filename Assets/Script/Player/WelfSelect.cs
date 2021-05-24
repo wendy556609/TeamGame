@@ -20,7 +20,7 @@ public class WelfSelect : MonoBehaviour
     private int[] chooseWelf = new int[2];//存放玩家所選的水精靈
 
     private bool canChange = true;
-    private bool isChange=false;
+    private bool isChange = false;
     private float timer = 0;
     public float changeTime = 2.0f;
     [SerializeField]
@@ -33,8 +33,6 @@ public class WelfSelect : MonoBehaviour
         for (int i = 0; i < 2; i++)
         {
             chooseWelf[i] = GameManager.chooseelf[i];
-            //chooseWelf[i] = testWelf[i];
-            //Debug.Log(chooseWelf[i]);
         }//設定玩家選哪幾隻elf
 
         mainTrans = GameObject.FindWithTag("Player").transform;
@@ -44,25 +42,25 @@ public class WelfSelect : MonoBehaviour
         iWelfCount = 1;
 
         welfuiobject = GameObject.FindWithTag("WelfUI");
-        welfui =welfuiobject.GetComponent<WELFUI>();
+        welfui = welfuiobject.GetComponent<WELFUI>();
         skillcooldown = welfuiobject.GetComponent<SkillCoolDown>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-            ChangeCharacter();
- 
+
+        ChangeCharacter();
+
 
         isChange = false;
-        
+
 
     }
 
     void ChangeCharacter()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A)&&!mpMainWelf.GetComponent<SkillSet>().getIsSkill())
         {
             skillcooldown.PauseSkillCoolDown(iWelfCount);
             iWelfCount++;
@@ -82,7 +80,7 @@ public class WelfSelect : MonoBehaviour
                 {
                     if (mpMainWelf == null)
                     {
-                        mpMainWelf = mainWelf[chooseWelf[0]-1];
+                        mpMainWelf = mainWelf[chooseWelf[0] - 1];
                         //設定主要Welf為第一隻
                     }
                 }
@@ -91,7 +89,7 @@ public class WelfSelect : MonoBehaviour
                 {
                     if (mpMainWelf == null)
                     {
-                        mpMainWelf = mainWelf[chooseWelf[1]-1];
+                        mpMainWelf = mainWelf[chooseWelf[1] - 1];
                         //設定主要Welf為第二隻
                     }
                 }
@@ -109,7 +107,6 @@ public class WelfSelect : MonoBehaviour
             {
                 DestroyImmediate(GameObject.FindGameObjectWithTag("Welf"), true);
             }
-            //Debug.Log(mpMainWelf.name);
             Instantiate(mpMainWelf, mainTrans);
         }
     }

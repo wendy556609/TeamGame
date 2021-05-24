@@ -33,7 +33,6 @@ public class SayDialog : MonoBehaviour {
         {
             faceright = PlayerMovement.faceRight;
         }
-        Debug.Log(faceright+"+"+nowfaceright);
         if (nowfaceright!= faceright)  //轉向了
         {
             //if (gameObject.name == "Text")

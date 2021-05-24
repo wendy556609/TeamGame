@@ -46,7 +46,6 @@ public class ElderTalk : MonoBehaviour
         if(flowchart.GetBooleanVariable("odeliahasjump") == true)
         {
             odeliahasjump = true;
-            Debug.Log("AAA");
         }
     }
     void OnTriggerStay2D(Collider2D collision)
@@ -57,25 +56,21 @@ public class ElderTalk : MonoBehaviour
             if (Input.GetKeyDown("z") && isclickZ == false)
             {
                 isclickZ = true;
-                Debug.Log("BBBB");
                 if (isfungus == false)
                 {
                     talkimage.transform.position = vr1;
                     Fungus.Flowchart.BroadcastFungusMessage(gameObject.name);
                     isfungus = true;
-                    Debug.Log("BB");
                 }
             }
             if (isclickZ == false && isfungus == false)
             {
                 talkimage.transform.position = vr0; //顯示talkimage
-                Debug.Log("BBB");
             }
             else
             {
                 talkimage.transform.position = vr1; //隱藏talkimage
                 
-                Debug.Log("B");
             }
         }
         

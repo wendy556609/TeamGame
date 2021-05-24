@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class middleEnemy_health : MonoBehaviour {
+public class middleEnemy_health : MonoBehaviour
+{
 
     //遊戲開始時小怪的初始血量
     public int startingHealth = 10;
@@ -23,28 +24,24 @@ public class middleEnemy_health : MonoBehaviour {
     //傷害
     public void TakeDamage(int amount = 10)
     {
-        Debug.Log("damaged");
-        if (isDead)
-            return;
-
-        currentHealth -= amount;
-        Debug.Log(currentHealth);
-        if (currentHealth <= 0)
+        if (!isDead)
         {
-            Death();
+            currentHealth -= amount;
+            if (currentHealth <= 0)
+            {
+                Death();
+            }
         }
-
+        else return;
     }
 
     //死亡
     void Death()
     {
-        Debug.Log("Dead");
         isDead = true;
         capsuleCollider.isTrigger = true;
         anim.SetTrigger("Dead");
         enemy_dead++;
-
     }
 
 

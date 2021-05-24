@@ -37,7 +37,6 @@ public class PlayerHealth : MonoBehaviour
     }
     void Awake()
     {
-        Debug.Log("health.start");
 
     }
 
@@ -45,18 +44,14 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         isDamaged = false;
-        //Debug.Log("health.update");
-        Animating();
 
         PlayerMovement.canMove = true;
     }
 
     public void TakeDamage(int amount)
     {
-        //Debug.Log("takedamage out");
         if (!isProtect&&!isDead)
         {
-            //Debug.Log("takedamage in");
             isDamaged = true;
 
             PlayerMovement.canMove = false;
@@ -66,8 +61,6 @@ public class PlayerHealth : MonoBehaviour
             playerAnim.SetTrigger("isDamaged");
 
             uiheart.DecreaseLife(currentHealth);
-            //Debug.Log("health.take");
-            Debug.Log("player" + currentHealth);
 
             //PlayerAttack.attackCount = 0;
             //isDamaged = false;
@@ -85,13 +78,5 @@ public class PlayerHealth : MonoBehaviour
         playerAnim.SetTrigger("isDead");
 
         playerMovement.enabled = false;
-
-        Debug.Log("You Die!");
-    }
-
-    void Animating()
-    {
-        //playerAnim.SetBool("isDamaged", isDamaged);
-        //Debug.Log("health.anim");
     }
 }

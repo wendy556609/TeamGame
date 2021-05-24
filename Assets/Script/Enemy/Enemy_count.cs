@@ -16,7 +16,6 @@ public class Enemy_count : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("middleEnemy_allDead" + middleEnemy_allDead);
         if (littleEnemy1_count == 0)
         {
             littleEnemy1_allDead = true;

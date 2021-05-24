@@ -47,7 +47,6 @@ public class middleEnemy_Health : MonoBehaviour
         isDead = true;
         anim.SetTrigger("Dead");
         enemy_dead++;
-
     }
 
 

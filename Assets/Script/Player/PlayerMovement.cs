@@ -131,7 +131,6 @@ public class PlayerMovement : MonoBehaviour
         if (keyJump && canJumping)
         {
             isJumping = true;
-            //Debug.Log("Jump");
             
             playerRigidbody.AddForce(new Vector2(0f, jumpSpeed * 2f));
             jumpCount++;
@@ -147,8 +146,6 @@ public class PlayerMovement : MonoBehaviour
         {
             isTop = true;
             playerAnim.SetBool("isTop",isTop);
-            Debug.Log("top");
-            //playerAnim.SetBool("isTop", isTop);
         }
         if (playerRigidbody.velocity.y < -3)
         {
@@ -156,16 +153,11 @@ public class PlayerMovement : MonoBehaviour
             isFall = true;
             playerAnim.SetBool("isFall",isFall);
             playerAnim.SetBool("isTop", isTop);
-            Debug.Log("fall");
-            //playerAnim.SetBool("isTop", isTop);
-            //playerAnim.SetBool("isFall", isFall);
         }
         if (isGround)
         {
             isFall = false;
         }
-        //isFall = false;
-        //Debug.Log(jumpCount);
     }
 
     //進入地面
